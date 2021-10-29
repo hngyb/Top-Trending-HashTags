@@ -27,9 +27,11 @@
 
 ### Prerequisites
 
-- python==3.8.12
-- kafka-python==2.0.2
-- tweepy==4.1.0
+- python 3.8.12
+- zookeeper 3.7.0_1
+- kafka 3.0.0
+- kafka-python 2.0.2
+- tweepy 4.1.0
 
 ### Usage
 
