@@ -31,6 +31,7 @@
 - zookeeper 3.7.0_1
 - kafka 3.0.0
 - kafka-python 2.0.2
+- pyspark 3.2.0
 - tweepy 4.1.0
 
 ### Usage
