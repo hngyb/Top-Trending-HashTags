@@ -16,12 +16,12 @@
 
 ## About
 
-프로젝트 설명
+![data_pipeline](./data_pipeline.jpg)
 
 ### Team
 
-- 김홍엽
-- 이규복
+- [김홍엽](https://github.com/hngyb)
+- [이규복](https://github.com/gyubok-lee)
 
 ## Getting Started
 
@@ -36,10 +36,15 @@
 
 ### Usage
 
+1. zookeeper, kafka 실행
+2. [getTweetsStreaming.ipynb 실행](./dataIngestion/getTweetsStreaming.ipynb)
+3. [pysparkStructuredStreaming.ipynb 실행](./speedLayer/pysparkStructuredStreaming.ipynb)
+
 ## License
 
 MIT License
 
 ## Acknowledgements
 
-참고자료
+- [https://ch-nabarun.medium.com/easy-to-play-with-twitter-data-using-spark-structured-streaming-76fe86f1f81c](https://ch-nabarun.medium.com/easy-to-play-with-twitter-data-using-spark-structured-streaming-76fe86f1f81c)
+- [https://velog.io/@shinychan95/Twitter-API를-활용하여-실시간-tweet을-kafka로-보내기](https://velog.io/@shinychan95/Twitter-API를-활용하여-실시간-tweet을-kafka로-보내기)
